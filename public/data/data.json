@@ -34,5 +34,11 @@
             "avatar": "/public/image/avatar/4uuu.jpg",
             "name": "4uuu Nya",
             "blog": "https://qvq.im"
+        },
+        {
+            "id": "system",
+            "avatar": "/public/image/avatar/system_gov.png",
+            "name": "system_gov",
+            "blog": "http://www.base64.cn"
         }
     ]    

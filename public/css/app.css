@@ -1,0 +1,100 @@
+@import url('https://fonts.geekzu.org/css?family=Montserrat+Alternates:700|Volkhov:700|Hammersmith+One|Arbutus+Slab|Poppins:800|Questrial|Bungee+Outline|Josefin+Sans:700');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	color: #383a3c;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.25;
+	font-family: "Franklin Gothic Medium", "Helvetica Neue", Helvetica, 'Microsoft YaHei', sans-serif;
+    overflow: hidden;
+    cursor: default;
+}
+
+canvas {
+    overflow: hidden;
+    z-index: -1;
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+a, button {
+	outline: none;
+}
+
+a {
+	color: #566473;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #34495e;
+}
+
+section {
+	padding: 1em;
+	text-align: center;
+}
+
+p.ref {
+	text-align: center;
+	padding: 2em 1em;
+}
+
+
+@media only screen and (max-width : 768px) {
+	.main-title {
+		font-size: 3em;
+	}
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Word + SVG styles */
+.word {
+    z-index: 2;
+	position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+	text-transform: uppercase;
+	font-size: 9vw;
+    cursor: default;
+    font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.word span {
+	display: block;
+	position: relative;
+	flex: none;
+	white-space: pre;
+}
+
+.shapes {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
